@@ -282,16 +282,22 @@ body {
 
 }
 
-
 .third-section {
+    justify-content: left;
+    background-image: url("../../images/image-5.png");
+}
+
+.forth-section {
+    justify-content: right;
+    background-image: url("../../images/image-6.png");
+}
+
+.third-section, .forth-section {
     position: relative;
     height: 75vh;
-    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: left;
     color: $white-color;
-    background-image: url("../../images/image-5.png");
     background-size: cover;
     padding: 0 100px 0 100px;
 
