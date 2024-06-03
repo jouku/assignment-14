@@ -416,3 +416,51 @@ body {
         }
     }
 }
+
+.footer-section {
+    position: relative;
+    height: 40vh;
+    display: grid;
+    align-items: center;
+    color: $white-color;
+    padding: 0 100px 0 100px;
+    justify-content: space-around;
+    background-color: $light-black-color;
+
+    h1 {
+        clear: $black-color;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+    }
+
+    p {
+        clear: $black-color;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        font-weight: 200;
+        letter-spacing: 6px;
+    }
+
+    .social-icons {
+        display: flex;
+
+        .social-icon {
+            color: $white-color;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            width: 50px;
+            text-decoration: none;
+
+            &:hover {
+                color: $light-blue-color;
+            }
+        }
+    }
+}
