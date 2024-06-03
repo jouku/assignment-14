@@ -281,3 +281,82 @@ body {
     }
 
 }
+
+
+.third-section {
+    position: relative;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: $white-color;
+    background-image: url("../../images/image-5.png");
+    background-size: cover;
+    padding: 0 100px 0 100px;
+
+    .box {
+        background-color: rgb(35, 35, 35, 0.90);
+        padding: 50px;
+        width: 30%;
+
+        h1 {
+            clear: $black-color;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 50px;
+            text-align: left;
+            text-transform: uppercase;
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            clear: $black-color;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 50px;
+            text-align: left;
+            text-transform: capitalize;
+        }
+
+        p {
+            clear: $black-color;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: left;
+            font-weight: 200;
+            padding-bottom: 15px;
+        }
+
+        .img-items {
+            >img:nth-child(1) {
+                position: relative;
+            }
+
+            >img:nth-child(2) {
+                position: relative;
+                right: -100px;
+                top: 30px;
+            }
+        }
+
+        input[type=button] {
+            margin-top: 30px;
+            padding: 20px 15px 20px 15px;
+            font-family: $font-family-aleo;
+            background-color: $navbar-color;
+            color: $white-color;
+            border: none;
+            float: left;
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: $navbar-light-color;
+            }
+
+            &:focus {
+                background-color: $navbar-light-color;
+            }
+        }
+    }
+}
