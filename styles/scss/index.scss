@@ -5,3 +5,37 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.first-section {
+    position: relative;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: $white-color;
+    background-image: url("../../images/image-1.png");
+    background-size: cover;
+
+    .header-view {
+        display: grid;
+        align-items: center;
+
+        h1 {
+            clear: $black-color;
+            font-size: 48px;
+            font-weight: bold;
+            line-height: 50px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        p {
+            clear: $black-color;
+            font-size: 22px;
+            line-height: 26px;
+            text-align: center;
+            font-weight: 200;
+            letter-spacing: 6px;
+        }
+    }
+}
