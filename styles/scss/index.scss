@@ -109,6 +109,7 @@ body {
 
         .scroll-section {
             text-align: center;
+
             p {
                 font-size: 14px;
                 letter-spacing: 3px;
@@ -144,4 +145,75 @@ body {
             }
         }
     }
+}
+
+.second-section {
+    position: relative;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white-color;
+    background-image: url("../../images/image-2.png");
+    background-size: cover;
+
+    .view {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 50px 0 50px;
+        align-items: center;
+
+        h1 {
+            clear: $black-color;
+            font-size: 36px;
+            font-weight: bold;
+            line-height: 50px;
+            text-align: left;
+            text-transform: capitalize;
+            padding-bottom: 30px;
+        }
+
+        p {
+            clear: $black-color;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: left;
+            font-weight: 200;
+            letter-spacing: 6px;
+            padding-bottom: 30px;
+        }
+
+        .img-items {
+            >img:nth-child(1) {
+                position: relative;
+            }
+
+            >img:nth-child(2) {
+                position: relative;
+                right: -100px;
+                top: 30px;
+            }
+        }
+
+        input[type=button] {
+            margin-top: 30px;
+            padding: 20px 15px 20px 15px;
+            font-family: $font-family-aleo;
+            background-color: $navbar-color;
+            color: $white-color;
+            border: none;
+            float: left;
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: $navbar-light-color;
+            }
+
+            &:focus {
+                background-color: $navbar-light-color;
+            }
+        }
+    }
+
 }
