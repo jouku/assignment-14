@@ -37,6 +37,34 @@ body {
             font-weight: 200;
             letter-spacing: 6px;
         }
+
+        .search-section {
+            width: 580px;
+
+            input[type=text] {
+                background-color: $white-color;
+                font-family: $font-family;
+                font-weight: 200;
+                width: 450px;
+                height: 50px;
+                border: none;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                float: left;
+            }
+
+            input[type=button] {
+                font-family: $font-family-aleo;
+                width: 130px;
+                height: 50px;
+                left: -130px;
+                background-color: $navbar-color;
+                color: $white-color;
+                border: none;
+                padding-right: 10px;
+            }
+        }
     }
 }
 
