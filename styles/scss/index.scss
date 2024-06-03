@@ -52,6 +52,7 @@ body {
                 margin: 0;
                 padding: 0;
                 float: left;
+                text-transform: capitalize;
             }
 
             input[type=button] {
@@ -62,7 +63,20 @@ body {
                 background-color: $navbar-color;
                 color: $white-color;
                 border: none;
+                border: 3px solid #FFFFFF;
+                margin: 0;
+                padding: 0;
                 padding-right: 10px;
+                float: left;
+                text-transform: uppercase;
+
+                &:hover {
+                    background-color: $navbar-light-color;
+                }
+
+                &:focus {
+                    background-color: $navbar-light-color;
+                }
             }
 
             i {
